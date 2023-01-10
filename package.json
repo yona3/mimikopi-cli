@@ -1,0 +1,12 @@
+{
+  "name": "mimikopi-cli",
+  "version": "1.0.0",
+  "author": "yona3 <yonajs208@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  }
+}
