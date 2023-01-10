@@ -1,5 +1,8 @@
+import fire
+
+from mimikopi_cli.app import App
+
+
 def main() -> None:
-    print("hello,world!")
-
-
-main()
+    app = App()
+    fire.Fire(app)
