@@ -20,6 +20,7 @@ spleeter = "^2.3.2"
 [tool.poetry.group.dev.dependencies]
 mypy = "^0.991"
 flake8 = "^6.0.0"
+black = "<21.4b0"
 
 [build-system]
 requires = ["poetry-core"]
