@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mimikopi-cli:
+    build: .
+    volumes:
+      - .dockervenv:/src/.venv
+      - .:/src
+    tty: true
