@@ -5,8 +5,7 @@
 ## Run
 
 ```shell
-$ docker-compose up -d
-$ docker-compose exec mimikopi-cli bash
+$ poetry install
 $ poetry shell
 $ mimikopi
 ```
